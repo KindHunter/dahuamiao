@@ -1,4 +1,4 @@
-create table tb_example(
+﻿create table tb_example(
 	id int unsigned not null auto_increment comment '主键id',
 	app_id int unsigned not null default '0' comment '应用id',
 	app_name varchar(255) not null default '' comment '应用名',
@@ -14,5 +14,5 @@ create table tb_example(
 	unique key unique_date_appid ("date","app_id"),
 	key idx_date ("date"),
 	key idx_ctime ("ctime")
-)engine=innodb default charset=utf8 comment '这是一张示例表';
+)engine=innodb default charset=utf8 comment '这是一张示例+表';
 
