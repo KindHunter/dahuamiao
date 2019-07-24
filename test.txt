@@ -14,5 +14,5 @@
 	unique key unique_date_appid ("date","app_id"),
 	key idx_date ("date"),
 	key idx_ctime ("ctime")
-)engine=innodb default charset=utf8 comment '这是一张示例+(develop)+(release) *3表';
+)engine=innodb default charset=utf8 comment '这是一张示例+(develop)+(release) *2表';
 
