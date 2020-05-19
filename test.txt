@@ -15,4 +15,5 @@
 	key idx_date ("date"),
 	key idx_ctime ("ctime")
 )engine=innodb default charset=utf8 comment '这是一张示例表';
+modify 1
 
