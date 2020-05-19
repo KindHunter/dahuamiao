@@ -1,18 +1,1 @@
-﻿create table tb_example(
-	id int unsigned not null auto_increment comment '主键id',
-	app_id int unsigned not null default '0' comment '应用id',
-	app_name varchar(255) not null default '' comment '应用名',
-	click_cnt int unsigned not null default '0' comment '点击数',
-	disp_cnt int unsigned not null default '0' comment '展示数',
-	status tinyint unsigned not null default '0' comment '状态： 1-启用；0-禁用',
-	click_rate float unsigned not null default '0' comment '点击率=点击数/展示数',
-	note text not null default '' comment '备注',
-	date varchar(255) not null default '统计日期',
-	mtime int unsigned not null comment '修改时间',
-	ctime int unsigned not null comment '创建时间',
-	primary key ("id"),
-	unique key unique_date_appid ("date","app_id"),
-	key idx_date ("date"),
-	key idx_ctime ("ctime")
-)engine=innodb default charset=utf8 comment '这是一张示例+(develop)+(release) *3表';
-
+﻿release message!
